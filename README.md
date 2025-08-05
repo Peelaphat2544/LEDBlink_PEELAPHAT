@@ -10,7 +10,7 @@ A simple Arduino library to blink an LED with a specified interval using non-blo
 LEDBlink_PEELAPHAT led;
 
 void setup() {
-  // Nothing needed here
+  Serial.begin(115200);
 }
 
 void loop() {
