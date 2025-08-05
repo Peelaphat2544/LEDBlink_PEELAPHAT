@@ -3,7 +3,7 @@
 LEDBlink_PEELAPHAT led;
 
 void setup() {
-  // Nothing needed here
+  Serial.begin(115200);
 }
 
 void loop() {
